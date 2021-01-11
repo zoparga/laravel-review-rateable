@@ -1,0 +1,29 @@
+{
+    "name": "zoparga/review-rateable",
+    "description": "Rating system for Laravel",
+    "keywords": ["rating", "Rateable", "laravel", "ReviewRateable", "reviewable"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Papp Zoltan",
+            "email": "zoltan@pappz.hu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zoparga\\ReviewRateable\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "zoparga\\ReviewRateable\\ReviewRateableServiceProvider"
+          ]
+      }
+    }
+}
