@@ -9,10 +9,7 @@
             "email": "zoltan@pappz.hu"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.5.9"
-    },
+
     "autoload": {
         "psr-4": {
             "zoparga\\ReviewRateable\\": "src/"
